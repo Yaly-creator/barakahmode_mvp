@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BarakahMode - MVP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🌙 BarakahMode</h1>
+
+    <section id="todo">
+      <h2>To-Do du Jour</h2>
+      <input type="text" id="task-input" placeholder="Ajouter une tâche...">
+      <button id="add-task">Ajouter</button>
+      <ul id="task-list"></ul>
+    </section>
+
+    <section id="tracker">
+      <h2>Suivi Spirituel</h2>
+      <div class="tracker-item">
+        <label><input type="checkbox" id="fajr"> Fajr</label>
+        <label><input type="checkbox" id="dhuhr"> Dhuhr</label>
+        <label><input type="checkbox" id="asr"> Asr</label>
+        <label><input type="checkbox" id="maghrib"> Maghrib</label>
+        <label><input type="checkbox" id="isha"> Isha</label>
+      </div>
+      <div class="tracker-item">
+        <label><input type="checkbox" id="quran"> Lecture du Coran</label>
+        <label><input type="checkbox" id="fast"> Jeûne aujourd'hui</label>
+      </div>
+      <button id="reset-tracker">Réinitialiser le tracker</button>
+
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
